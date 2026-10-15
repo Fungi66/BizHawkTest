@@ -844,7 +844,7 @@ GPGX_EX int gpgx_init(const char* feromextension,
 	config.psg_preamp            = 150;
 	config.fm_preamp             = 100;
 	config.cdda_volume           = 100;
-	config.pcm_volume            = 100;
+	config.pcm_volume            = 50;
 	config.hq_fm                 = 1;
 	config.hq_psg                = 1;
 	config.filter                = settings->Filter; //0; /* no filter */
